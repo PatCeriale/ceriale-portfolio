@@ -1,0 +1,12 @@
+.card-footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: darkslategrey;
+  border-top-width: 5px;
+  border-color: green;
+}
+.Footer {
+  background-color: hotpink;
+}

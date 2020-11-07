@@ -15,7 +15,7 @@ export default function About() {
                   id="about-image"
                   src="./images/PoppyPicture.png"
                   className="responsive img-fluid thumbnail float-left"
-                  alt="Puppy Picture"
+                  // alt="Puppy Picture"
                   style={{ width: "66.6%" }}
                 />
                 <p>

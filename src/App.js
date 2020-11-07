@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
         </Route>
       </Switch>
       <Footer />
+      <Switch>
+        <Route exact path="/resume">
+          <Resume />
+        </Route>
+      </Switch>
     </Router>
   );
 }

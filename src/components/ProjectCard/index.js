@@ -1,6 +1,8 @@
 import React from "react";
+import "./style.css";
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
+  const { name, image, description, deployed, github } = props.project;
   return (
     <div className="ProjectCard">
       <div className="flip-card m-2">
@@ -8,22 +10,22 @@ export default function ProjectCard() {
           <div className="flip-card-front">
             <img
               id="portfolio-image"
-              src="images/WhaleHunterLogo.png"
+              src={image}
               className="img-fluid thumbnail"
-              alt="Screen shot of Whale Hunter"
+              alt={name}
             />
           </div>
           <div className="flip-card-back p-2">
-            <p>description</p>
+            <p>{description}</p>
           </div>
         </div>
       </div>
       <div className="text">
-        <a href="https://whalehunterbeer.herokuapp.com/" target="_blank">
-          Whale Hunter Beer Discovery App
+        <a href={deployed} target="_blank">
+          {name}
         </a>{" "}
         /{" "}
-        <a href="https://github.com/PatCeriale/Whale-Hunter" target="_blank">
+        <a href={github} target="_blank">
           GitHub
         </a>
       </div>{" "}
