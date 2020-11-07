@@ -1,6 +1,42 @@
 import React from "react";
+import ProjectCard from "../../components/ProjectCard";
 import "./style.css";
 
-export default function About() {
-  return <h1>Portfolio!</h1>;
+export default function Portfolio() {
+  return (
+    <div className="Portfolio">
+      <div className="container my-5 portfolio">
+        <div className="row">
+          <div id="info-box" className="col-sm-auto mb-5 py-5">
+            <h1>Project Portfolio</h1>
+            <hr />
+            <div className="d-flex flex-lg-row flex-column flex-wrap align-items-center">
+              <div className="m-2 portfolioContainer">
+                <ProjectCard />
+              </div>
+              <div className="m-2">
+                <ProjectCard />
+              </div>
+            </div>
+            <div className="d-flex flex-lg-row flex-column flex-wrap align-items-center">
+              <div className="m-2 portfolioContainer">
+                <ProjectCard />
+              </div>
+              <div className="m-2">
+                <ProjectCard />
+              </div>
+            </div>
+            <div className="d-flex flex-lg-row flex-column flex-wrap align-items-center">
+              <div className="m-2 portfolioContainer">
+                <ProjectCard />
+              </div>
+              <div className="m-2">
+                <ProjectCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

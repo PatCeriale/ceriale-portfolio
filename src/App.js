@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
@@ -22,6 +23,7 @@ function App() {
           <About />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
