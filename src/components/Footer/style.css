@@ -7,6 +7,9 @@
   border-top-width: 5px;
   border-color: green;
 }
-.Footer {
-  background-color: hotpink;
+.Footer .container {
+  background-image: none;
+  background-color: rgb(46, 68, 68);
+  background-size: cover;
+  padding: 5px;
 }

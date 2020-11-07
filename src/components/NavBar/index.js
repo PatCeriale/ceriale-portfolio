@@ -27,7 +27,7 @@ export default function NavBar() {
             </li>
             <li className="nav-item">
               {" "}
-              <Link to="/portfolio">Portfolio</Link>{" "}
+              <Link to="/portfolio"> Portfolio</Link>{" "}
             </li>
             <li className="nav-item">
               {" "}

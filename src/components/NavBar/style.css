@@ -25,3 +25,6 @@
 .custom-toggler .navbar-toggler {
   border-color: rgb(255, 102, 203);
 }
+.nav-item {
+  margin-left: 5px;
+}
