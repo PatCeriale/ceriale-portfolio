@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import ReactPDF, { PDFViewer } from "@react-pdf/renderer";
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
       <Footer />
       <Switch>
         <Route exact path="/resume">
+          {/* <PDFViewer> */}
           <Resume />
+          {/* </PDFViewer> */}
         </Route>
       </Switch>
     </Router>
