@@ -42,9 +42,12 @@ function Resume() {
                   </a>
                   <br />
                   {/* TODO: add portfolio link */}
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://ceriale-portfolio.herokuapp.com/resume"
+                    target="_blank"
+                  >
                     {" "}
-                    Portfolio: https://bit.ly/31W4qPh
+                    Portfolio: https://ceriale-portfolio.herokuapp.com/resume
                   </a>
                 </p>
                 <hr />
