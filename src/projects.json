@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Whale Hunter Beer Discovery App",
+        "image": "/images/WhaleHunterLogo.png",
+        "description": "Whale Hunter is a beer tracking, search engine and social media app that is built to be your go to for beer discovery. Browse our app and explore new beers to taste while learning more about new beers and the breweries that made them. Save those beers to a 'six pack' for referencing later. Share your experiences with your friends and strangers by posting about your experience, sharing your created six packs, and by rating beer by using our innovative Ahab scale.",
+        "deployed": "https://whalehunterbeer.herokuapp.com/",
+        "github": "https://github.com/PatCeriale/Whale-Hunter"
+    },
+    {
+        "id": "2",
+        "name": "COVID-19 Resource Page",
+        "image": "images/Covid-Resource-Page.png",
+        "description": "This application was developed to monitor the density of COVID-19 cases by county as well as to give the user resources for the pandemic. Along with an interactive map of active cases, we have supplied a COVID-19 testing location finder, recent top peer reviewed articles related to the virus as well as a link to the Centers for Disease Control and Prevention (CDC) homepage. This application is meant to be your hub for information about the Coronavirus pandemic.",
+        "deployed": "https://patceriale.github.io/Covid-19-Resource-Page/",
+        "github": "https://github.com/PatCeriale/Covid-19-Resource-Page"
+    },
+    {
+        "id": "3",
+        "name": "Project 3",
+        "image": "images/Under-Construction-Success-Image.jpg",
+        "description": "Coming soon to a portfolio near you",
+        "deployed": "#",
+        "github": "#"
+    },
+    {
+        "id": "4",
+        "name": "Employee Directory App.png",
+        "image": "images/Employee-Directory.png",
+        "description": "This is an app for easy viewing of your staff, created with React.js and populated with Random User Generator API. Each employee is stored in an API and rendered onto a component card. The user is able to filter results by age or alphabetically by name as well as use the auto-filling search bar to locate a specific employee.",
+        "deployed": "https://mighty-reef-28679.herokuapp.com/#",
+        "github": "https://github.com/PatCeriale/Employee-Directory-React"
+    },
+    {
+        "id": "5",
+        "name": "Pat's Burgers Handlebars App",
+        "image": "images/PatsBurgers.png",
+        "description": "The user is presented with a variety of burgers from the burger database. They are able to move burgers from the 'to eat' list to the 'eaten' list, and visa versa. The user is also allowed to create a new burger of their choosing or delete any existing burger from the database.",
+        "deployed": "https://protected-depths-76279.herokuapp.com/",
+        "github": "https://github.com/PatCeriale/Pats-Burgers-Handlebars"
+    },
+    {
+        "id": "6",
+        "name": "Online/Offline Budget Tracker",
+        "image": "images/Budget-Tracker.png",
+        "description": "This application is a budget tracker that allows the user to track their spending both on and offline. A chart is created using the input values to better visualize how the budget is trending. This is also a Progressive Web Application and can be downloaded to the client's desktop. MongoDB was used as the database of choice.",
+        "deployed": "https://sleepy-anchorage-48385.herokuapp.com/",
+        "github": "https://github.com/PatCeriale/Online-Offline-Budget-Tracker"
+    }
+]
