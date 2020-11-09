@@ -24,15 +24,11 @@ function App() {
         <Route exact path="/">
           <About />
         </Route>
-      </Switch>
-      <Footer />
-      <Switch>
         <Route exact path="/resume">
-          {/* <PDFViewer> */}
           <Resume />
-          {/* </PDFViewer> */}
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
