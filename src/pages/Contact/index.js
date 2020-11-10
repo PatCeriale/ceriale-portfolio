@@ -28,7 +28,7 @@ export default function Contact() {
               <p>
                 <a href="https://github.com/PatCeriale" target="_blank">
                   <img
-                    src="https://lh3.googleusercontent.com/proxy/m2savmB9nHIE-M7ugKNkBOVvHo83D_BAQL9Ct3XqD327a1bHBA9Pvynw8Zg7_Cu_M-WHy3dVg17DahRlGpldqjUUDIYJywF07FcuXdsFUNHjmEEz5a5Gp54_nCfJfpsVinvPLwYvfVBhI_3CA7AThy5ZENvbXN9B_tuTd-aEzo6l03UE6FWaoEXSqCYPagxJ0ds"
+                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
                     style={{ height: "100px", width: "100px" }}
                   ></img>
                   <br />
