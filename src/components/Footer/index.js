@@ -18,9 +18,11 @@ export default function Footer() {
           </a>
           <a href="https://github.com/PatCeriale" target="blank">
             GitHub |{" "}
+          </a>{" "}
+          <a href="mailto: patceriale@gmail.com" target="_blank">
+            Email |
           </a>
-          <Link to="/resume"> Resume | </Link>
-          &#169; Copyright
+          <Link to="/resume"> Resume</Link>
         </div>
       </footer>
     </div>
