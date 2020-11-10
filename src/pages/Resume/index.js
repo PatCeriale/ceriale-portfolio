@@ -196,7 +196,9 @@ function Resume() {
                 </p>
               </div>
             </div>
-            <button className="resume-btn">Download to PDF</button>
+            <a href="/images/CerialeResume11:9:20.pdf" download>
+              <button className="resume-btn">Download to PDF</button>
+            </a>
           </div>
         </div>
       </div>
