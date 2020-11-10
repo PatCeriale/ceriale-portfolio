@@ -196,9 +196,9 @@ function Resume() {
                 </p>
               </div>
             </div>
+            <button className="resume-btn">Download to PDF</button>
           </div>
         </div>
-        <button className="resume-btn">Download to PDF</button>
       </div>
       <script></script>
     </div>
