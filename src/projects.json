@@ -17,15 +17,15 @@
     },
     {
         "id": "3",
-        "name": "Project 3",
-        "image": "images/Under-Construction-Success-Image.jpg",
+        "name": "Truck N' Tasty",
+        "image": "https://64.media.tumblr.com/b343649189ed67f4b386539103f2b348/a34b696191849ea9-53/s1280x1920/4594b9d33ab1fa99c271c6aaf85983bb104b1614.png",
         "description": "Coming soon to a portfolio near you",
-        "deployed": "#",
-        "github": "#"
+        "deployed": "https://truckntastyfood.herokuapp.com/",
+        "github": "https://github.com/PatCeriale/Truck-N-Tasty"
     },
     {
         "id": "4",
-        "name": "Employee Directory App.png",
+        "name": "Employee Directory",
         "image": "images/Employee-Directory.png",
         "description": "This is an app for easy viewing of your staff, created with React.js and populated with Random User Generator API. Each employee is stored in an API and rendered onto a component card. The user is able to filter results by age or alphabetically by name as well as use the auto-filling search bar to locate a specific employee.",
         "deployed": "https://mighty-reef-28679.herokuapp.com/#",
