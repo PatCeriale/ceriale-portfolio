@@ -53,7 +53,7 @@ export default function About() {
                   chef. Shown above is my dog, Poppy, surprisingly not eating.
                   She enjoys dragging me along while hiking the many trails the
                   Pacific North West has to offer, as well as getting
-                  complements on her heterochromatic eyes.
+                  compliments on her heterochromatic eyes.
                 </p>
                 <br />
               </div>
