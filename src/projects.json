@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Whale Hunter Beer Discovery App",
-        "image": "/images/WhaleHunterLogo.png",
+        "image": "https://64.media.tumblr.com/09635803363c495ef064611340144b0c/7874ac6c6b7d40b3-f0/s1280x1920/bdda38420dcc46ab7f5c2b1ca906515f664692ca.png",
         "description": "Whale Hunter is a beer tracking, search engine and social media app that is built to be your go to for beer discovery. Browse our app and explore new beers to taste while learning more about new beers and the breweries that made them. Save those beers to a 'six pack' for referencing later. Share your experiences with your friends and strangers by posting about your experience, sharing your created six packs, and by rating beer by using our innovative Ahab scale.",
         "deployed": "https://whalehunterbeer.herokuapp.com/",
         "github": "https://github.com/PatCeriale/Whale-Hunter"
@@ -18,7 +18,8 @@
     {
         "id": "3",
         "name": "COVID-19 Resource Page",
-        "image": "images/Covid-Resource-Page.png",
+        "image": "https://64.media.tumblr.com/143948a8a883626e0d3ae3e460573c0f/530ed2d655baf1f2-f9/s1280x1920/680609223a7669c9efbdc5095eb59d2b61b884bd.png",
+        "preview": "images/Covid-Resource-Page.png",
         "description": "This application was developed to monitor the density of COVID-19 cases by county as well as to give the user resources for the pandemic. Along with an interactive map of active cases, we have supplied a COVID-19 testing location finder, recent top peer reviewed articles related to the virus as well as a link to the Centers for Disease Control and Prevention (CDC) homepage. This application is meant to be your hub for information about the Coronavirus pandemic.",
         "deployed": "https://patceriale.github.io/Covid-19-Resource-Page/",
         "github": "https://github.com/PatCeriale/Covid-19-Resource-Page"
@@ -26,7 +27,8 @@
     {
         "id": "4",
         "name": "Employee Directory",
-        "image": "images/Employee-Directory.png",
+        "image": "https://64.media.tumblr.com/b581fae27720709f767af6d0f4f527f0/f685b3711d39ef11-00/s1280x1920/5d6ef1fc8f6681b95f9a3f9c6fe1de1ce043d159.png",
+        "preview": "images/Employee-Directory.png",
         "description": "This is an app for easy viewing of your staff, created with React.js and populated with Random User Generator API. Each employee is stored in an API and rendered onto a component card. The user is able to filter results by age or alphabetically by name as well as use the auto-filling search bar to locate a specific employee.",
         "deployed": "https://mighty-reef-28679.herokuapp.com/#",
         "github": "https://github.com/PatCeriale/Employee-Directory-React"

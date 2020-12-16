@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 export default function ProjectCard(props) {
-  const { name, image, description, deployed, github } = props.project;
+  const { name, image, description, deployed, github, preview } = props.project;
   return (
     <div className="ProjectCard">
       <div className="flip-card m-2">
@@ -16,6 +16,14 @@ export default function ProjectCard(props) {
             />
           </div>
           <div className="flip-card-back p-2">
+            <p>Preview:</p>
+            <img
+              id="portfolio-image"
+              src={preview}
+              className="img-fluid thumbnail"
+              alt={name}
+            />
+            <br />
             <p>{description}</p>
           </div>
         </div>
