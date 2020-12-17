@@ -39,3 +39,6 @@
   transform: rotateY(180deg);
   overflow: scroll;
 }
+h6 {
+  text-align: left;
+}

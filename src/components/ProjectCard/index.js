@@ -16,7 +16,7 @@ export default function ProjectCard(props) {
             />
           </div>
           <div className="flip-card-back p-2">
-            <p>Preview:</p>
+            <h6>Preview:</h6>
             <img
               id="portfolio-image"
               src={preview}
@@ -24,6 +24,7 @@ export default function ProjectCard(props) {
               alt={name}
             />
             <br />
+            <h6>Description:</h6>
             <p>{description}</p>
           </div>
         </div>
