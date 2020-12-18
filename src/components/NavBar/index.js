@@ -23,7 +23,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link to="/">About </Link>
+              <Link to="/about">About </Link>
             </li>
             <li className="nav-item">
               {" "}
