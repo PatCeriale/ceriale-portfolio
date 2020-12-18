@@ -12,18 +12,18 @@ export default function About() {
             <hr />
             <div id="row-one" className="row">
               <div className="col-md-12">
-                <ControlledCarousel
+                {/* <ControlledCarousel
                 // id="about-image"
                 // className="responsive img-fluid thumbnail float-left"
                 // style={{ width: "66.6%" }}
-                />
-                {/* <img
+                /> */}
+                <img
                   id="about-image"
                   src="./images/PoppyPicture.png"
                   className="responsive img-fluid thumbnail float-left"
-                  // alt="Puppy Picture"
+                  alt="Puppy Picture"
                   style={{ width: "66.6%" }}
-                /> */}
+                />
                 <p>
                   Hello there! I am a recent graduate of the University of
                   Washington Full Stack Coding Boot Camp currently looking for a
