@@ -11,6 +11,7 @@ export default function Portfolio() {
           <div id="info-box" className="col-sm-auto mb-5 py-5">
             <h1>Project Portfolio</h1>
             <hr />
+            *Click on icons for app preview and description
             <div className="d-flex flex-lg-row flex-column flex-wrap align-items-center">
               <div className="m-2 portfolioContainer">
                 <ProjectCard project={projects[0]} />
