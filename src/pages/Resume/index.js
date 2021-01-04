@@ -42,12 +42,9 @@ function Resume() {
                   </a>
                   <br />
                   {/* TODO: add portfolio link */}
-                  <a
-                    href="https://ceriale-portfolio.herokuapp.com/resume"
-                    target="_blank"
-                  >
+                  <a href="http://www.patrickceriale.me/" target="_blank">
                     {" "}
-                    Portfolio: https://ceriale-portfolio.herokuapp.com/resume
+                    Portfolio: patrickceriale.me/
                   </a>
                 </p>
                 <hr />
@@ -105,6 +102,28 @@ function Resume() {
                   </ul>
                   <ul>
                     {" "}
+                    <strong>Truck N’ Tasty </strong> |{" "}
+                    <a href="https://bit.ly/3niy8GJ" target="_blank">
+                      GitHub: https://bit.ly/3niy8GJ{" "}
+                    </a>
+                    |{" "}
+                    <a href="https://bit.ly/37eSXNL" target="_blank">
+                      Deployed Link: https://bit.ly/37eSXNL
+                    </a>
+                    <li>
+                      Food truck finder app with map, search engine and user
+                      account privileges. Using Google Maps and Places APIs,
+                      find the location and other information of food trucks
+                      near you!
+                    </li>
+                    <li>Front End team, UX/UI design </li>
+                    <li>
+                      JavaScript, CSS, React.js, Materialize UI, Express,
+                      Bcrypt, MongoDB, Mongoose, Google API
+                    </li>
+                  </ul>
+                  <ul>
+                    {" "}
                     <strong>COVID-19 Resource Page</strong> |{" "}
                     <a
                       href="https://github.com/PatCeriale/Covid-19-Resource-Page"
@@ -148,12 +167,8 @@ function Resume() {
                     </li>
                     <li>
                       Mastered the mechanics of all brewing equipment and
-                      utilized problem solving for maintenance/repairs as needed{" "}
-                    </li>
-                    <li>
-                      Played integral role in brewery expansion by helping
-                      design cellar blueprint for new location, ordering and
-                      installing equipment, ensuring it was operational
+                      utilized problem solving for installation, maintenance and
+                      repairs as needed{" "}
                     </li>
                     <li>
                       Devised and implemented system to record inventories and
@@ -171,14 +186,6 @@ function Resume() {
                     <li>
                       Presented at symposiums and workshops on brewing
                       processes, techniques, and ideology
-                    </li>
-                    <li>
-                      Coordinated with local producers on obtaining wine
-                      barrels, hops, fruits, yeast, and spices{" "}
-                    </li>
-                    <li>
-                      Assisted with brewery acquisition and the transition of
-                      ownership to Epic Brewing Company
                     </li>
                   </ul>
                   <strong>Education:</strong>
