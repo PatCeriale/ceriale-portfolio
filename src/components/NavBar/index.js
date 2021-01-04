@@ -33,6 +33,10 @@ export default function NavBar() {
               {" "}
               <Link to="/contact">Contact</Link>
             </li>
+            <li className="nav-item">
+              {" "}
+              <Link to="/resume">Resume</Link>
+            </li>
           </ul>
         </div>
       </nav>

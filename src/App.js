@@ -29,7 +29,7 @@ function App() {
           <Resume />
         </Route>
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
