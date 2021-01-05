@@ -31,13 +31,13 @@ export default function ProjectCard(props) {
       </div>
       <div className="text">
         <a href={deployed} target="_blank">
-          {name}
+          Deployed Link
         </a>{" "}
-        /{" "}
+        |{" "}
         <a href={github} target="_blank">
           GitHub
         </a>
-      </div>{" "}
+      </div>
     </div>
   );
 }
