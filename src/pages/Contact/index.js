@@ -3,10 +3,10 @@ import "./style.css";
 
 export default function Contact() {
   return (
-    <div className="container my-5">
+    <div className="container my-5 Contact">
       <div className="row">
         <div id="info-box" className="col-md-8 mb-5 py-5">
-          <h3>Contact Me</h3>
+          <h3>Contact Information</h3>
           <hr />
           <div id="about-links" className="row">
             <div className="col-sm">
