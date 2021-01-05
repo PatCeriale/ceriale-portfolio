@@ -5,6 +5,10 @@
 #about-image {
   margin: 10px;
 }
+.About #info-box {
+  margin: auto;
+  border-radius: 5px;
+}
 /* #resumeBtn {
   color: antiquewhite;
   margin: 20px;
