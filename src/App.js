@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
-import ReactPDF, { PDFViewer } from "@react-pdf/renderer";
 
 function App() {
   return (
@@ -15,9 +14,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
-          <About />
+          {/* <About />
           <Portfolio />
-          <Contact />
+          <Contact /> */}
         </Route>
         <Route exact path="/about">
           <About />
