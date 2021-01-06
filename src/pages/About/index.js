@@ -7,7 +7,7 @@ export default function About() {
     <div className="About">
       <div className="container my-5">
         <div className="row">
-          <div id="info-box" className="col-md-8 mb-5 py-5">
+          <div id="info-box" className="col-md-10 mb-5 py-5">
             <h1>About Me</h1>
             <hr />
             <div id="row-one" className="row">

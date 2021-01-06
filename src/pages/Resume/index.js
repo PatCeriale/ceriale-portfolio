@@ -20,7 +20,7 @@ function Resume() {
           <div id="info-box" className="col-md-8 mb-5 py-5">
             <div className="full-resume">
               <div className="resume-header">
-                <h4>Patrick R. Ceriale</h4>
+                <h3>Patrick R. Ceriale</h3>
                 <p>
                   {" "}
                   (805) 453-2264 |{" "}

@@ -6,6 +6,17 @@
   padding: 10px;
   width: 100px;
 }
+.Contact h3 {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 5px goldenrod, 0 0 5px gold, -1px 0 black,
+    0 1px black, 1px 0 black, 0 -1px black;
+}
 #about-links {
   text-align: center;
+}
+.Contact #info-box {
+  margin: auto;
+  border-radius: 5px;
 }
