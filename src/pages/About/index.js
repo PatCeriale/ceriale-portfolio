@@ -42,15 +42,42 @@ export default function About() {
                 </p>
 
                 <p>
-                  I have attached my resume at the bottom of this page, as well
-                  as my most recent projects, located in the Project Portfolio
-                  tab. Feel free to view these at your leisure, I hope you enjoy
-                  my work. Don't hesitate to reach out via my contacts if you
-                  have any questions.
+                  I have attached my resume at the top of this page, as well as
+                  my most recent projects, located in the Project Portfolio tab.
+                  Feel free to view these at your leisure, I hope you enjoy my
+                  work. Don't hesitate to reach out via my contacts if you have
+                  any questions.
                 </p>
                 <br />
               </div>
             </div>
+            <hr></hr>
+            <h1>Technical Skills</h1>
+            <img
+              id="skills-icon html"
+              src="./images/logos/html5logo.png"
+              style={{ width: "100px" }}
+            ></img>
+            <img
+              id="skills-icon javascript"
+              src="./images/logos/javascriptlogo.png"
+              style={{ width: "100px" }}
+            ></img>
+            <img
+              id="skills-icon css"
+              src="./images/logos/css3logo.png"
+              style={{ width: "100px" }}
+            ></img>
+            <img
+              id="skills-icon react"
+              src="./images/logos/reactlogo.png"
+              style={{ width: "100px" }}
+            ></img>
+            <img
+              id="skills-icon node"
+              src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png"
+              style={{ width: "100px" }}
+            ></img>
 
             <div className="row">
               <div className="col-md-12">
