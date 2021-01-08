@@ -51,8 +51,9 @@ export default function About() {
                 <br />
               </div>
             </div>
-            <hr></hr>
+            <br></br>
             <h1>Technical Skills</h1>
+            <hr></hr>
             <img
               id="skills-icon html"
               src="./images/logos/html5logo.png"
