@@ -79,6 +79,16 @@ export default function About() {
               src="./images/logos/nodelogo.png"
               style={{ width: "100px" }}
             ></img>
+            <img
+              id="skills-icon mongodb"
+              src="./images/logos/mongodblogo.png"
+              style={{ width: "100px" }}
+            ></img>
+            <img
+              id="skills-icon github"
+              src="./images/logos/githublogo.png"
+              style={{ width: "100px" }}
+            ></img>
             <br></br> <br></br>
             <div className="row">
               <div className="col-md-12">
