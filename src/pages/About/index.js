@@ -79,7 +79,7 @@ export default function About() {
               src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png"
               style={{ width: "100px" }}
             ></img>
-
+            <br></br> <br></br>
             <div className="row">
               <div className="col-md-12">
                 <p>
