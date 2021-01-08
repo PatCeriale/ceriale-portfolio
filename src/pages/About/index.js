@@ -76,7 +76,7 @@ export default function About() {
             ></img>
             <img
               id="skills-icon node"
-              src="https://e7.pngegg.com/pngimages/540/810/png-clipart-node-js-javascript-npm-computer-icons-web-application-others-miscellaneous-text.png"
+              src="./images/logos/nodelogo.png"
               style={{ width: "100px" }}
             ></img>
             <br></br> <br></br>
