@@ -1,47 +1,47 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export default function Contact() {
   return (
-    <div className="container my-5 Contact">
-      <div className="row">
-        <div id="info-box" className="col-md-8 mb-5 py-5">
+    <div className='container my-5 Contact'>
+      <div className='row'>
+        <div id='info-box' className='col-md-8 mb-5 py-5'>
           <h3>Contact Information</h3>
           <hr />
-          <div id="about-links" className="row">
-            <div className="col-sm">
+          <div id='about-links' className='row'>
+            <div className='col-sm'>
               <p>
                 <a
-                  href="https://www.linkedin.com/in/patrick-ceriale-2537101b1/"
-                  target="_blank"
+                  href='https://www.linkedin.com/in/patrick-ceriale-2537101b1/'
+                  target='_blank'
                 >
                   <img
-                    src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png"
-                    style={{ height: "100px", width: "100px" }}
+                    src='./images/linkedinlogo.png'
+                    style={{ height: '100px', width: '100px' }}
                   ></img>
                   <br />
                   LinkedIn
                 </a>
               </p>
-            </div>{" "}
-            <div className="col-sm">
+            </div>{' '}
+            <div className='col-sm'>
               <p>
-                <a href="https://github.com/PatCeriale" target="_blank">
+                <a href='https://github.com/PatCeriale' target='_blank'>
                   <img
-                    src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                    style={{ height: "100px", width: "100px" }}
+                    src='./images/githublogoonly.png'
+                    style={{ height: '100px', width: '100px' }}
                   ></img>
                   <br />
                   GitHub
                 </a>
               </p>
             </div>
-            <div className="col-sm">
+            <div className='col-sm'>
               <p>
-                <a href="mailto: patceriale@gmail.com" target="_blank">
+                <a href='mailto: patceriale@gmail.com' target='_blank'>
                   <img
-                    src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png"
-                    style={{ height: "100px", width: "100px" }}
+                    src='./images/gmailicon.png'
+                    style={{ height: '100px', width: '100px' }}
                   ></img>
                   <br />
                   Patceriale@gmail.com

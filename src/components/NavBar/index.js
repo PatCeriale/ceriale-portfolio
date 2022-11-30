@@ -1,41 +1,44 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './style.css';
 
 export default function NavBar() {
   return (
-    <div className="NavBar">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link to="/" className="navbar-brand mx-5" id="Patrick">
-          <h3>Patrick Ceriale</h3>{" "}
-        </Link>
+    <div className='NavBar'>
+      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <h3>
+          <a href='#home' id='Patrick'>
+            Patrick Ceriale
+          </a>
+        </h3>{' '}
         <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          className='navbar-toggler'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarNav'
+          aria-controls='navbarNav'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className='navbar-toggler-icon'></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <Link to="/about">About </Link>
+        <div className='collapse navbar-collapse' id='navbarNav'>
+          <ul className='navbar-nav ml-auto'>
+            <li className='nav-item active'>
+              <a href='#about'>About</a>{' '}
             </li>
-            <li className="nav-item">
-              {" "}
-              <Link to="/portfolio"> Portfolio</Link>{" "}
+            <li className='nav-item'>
+              {' '}
+              <a href='#portfolio'>Portfolio</a>{' '}
+              {/* <Link to='/portfolio'>Portfolio</Link>{' '} */}
             </li>
-            <li className="nav-item">
-              {" "}
-              <Link to="/contact">Contact</Link>
+            <li className='nav-item'>
+              {' '}
+              <a href='#contact'>Contact</a>{' '}
             </li>
-            <li className="nav-item">
-              {" "}
-              <Link to="/resume">Resume</Link>
+            <li className='nav-item'>
+              {' '}
+              <a href='#resume'>Resume</a>{' '}
             </li>
           </ul>
         </div>
