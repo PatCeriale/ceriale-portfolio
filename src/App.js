@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Birds from './components/Birds';
 import About from './pages/About';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -14,6 +15,9 @@ function App() {
       {/* <Switch> */}
       {/* <Route exact path='/'> */}
       <div className='hrefDiv' id='home'></div>
+      <div className='BirdDiv'>
+        <Birds />
+      </div>
       <Home />
       {/* <About />
           <Portfolio />
