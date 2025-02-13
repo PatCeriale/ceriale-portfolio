@@ -4,7 +4,7 @@ import './style.css';
 export default function Home() {
   return (
     <div className='Home'>
-      <h4 id='welcomeh4'>Welcome to my page!</h4>
+      <h1 id='welcomeText'>Welcome!</h1>
       <div class='birdroot'>
         <div class='bird-container bird-container--one'>
           <div class='bird bird--one'></div>

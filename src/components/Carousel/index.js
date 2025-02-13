@@ -1,6 +1,6 @@
-import { Carousel } from "react-bootstrap";
-import { useState } from "react";
-import "./style.css";
+// import { Carousel } from "react-bootstrap";
+import { useState } from 'react';
+import './style.css';
 
 export default function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -10,7 +10,9 @@ export default function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <div>
+      TODO: hello there
+      {/* <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -48,6 +50,7 @@ export default function ControlledCarousel() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
+    </div>
   );
 }

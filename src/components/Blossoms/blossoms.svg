@@ -1,0 +1,23 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define a petal shape -->
+    <path id="petal" d="M10,20 Q15,5 20,20 T30,20 Q25,35 20,20 T10,20" fill="pink" />
+  </defs>
+
+  <!-- Create multiple falling petals with animations -->
+  <use href="#petal" x="50" y="-30">
+    <animateTransform attributeName="transform" type="translate" from="50,-30" to="50,500" dur="5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="5s" repeatCount="indefinite"/>
+  </use>
+
+  <use href="#petal" x="150" y="-50">
+    <animateTransform attributeName="transform" type="translate" from="150,-50" to="150,500" dur="7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 150 50" to="360 150 50" dur="6s" repeatCount="indefinite"/>
+  </use>
+
+  <use href="#petal" x="250" y="-20">
+    <animateTransform attributeName="transform" type="translate" from="250,-20" to="250,500" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 250 50" to="360 250 50" dur="7s" repeatCount="indefinite"/>
+  </use>
+
+</svg>

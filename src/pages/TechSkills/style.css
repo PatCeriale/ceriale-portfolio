@@ -1,12 +1,9 @@
-.About {
+.TechSkills {
   margin: 0;
   min-height: 100vh;
 }
 
-#about-image {
-  margin: 10px;
-}
-.About #info-box {
+.TechSkills #info-box {
   margin: auto;
   border-radius: 5px;
   width: 90%;
@@ -20,7 +17,7 @@
   padding: 10px;
   width: auto;
 } */
-.About .container {
+.TechSkills .container {
   /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
@@ -28,4 +25,8 @@
 }
 .item {
   display: flexbox;
+}
+.TechSkills img {
+  width: 100px;
+  margin: 5px;
 }

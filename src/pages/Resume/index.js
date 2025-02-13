@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 
 // import { Document } from "react-pdf";
 // import { PDFViewer } from "@react-pdf/renderer";
-import { Document, Page, pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+// import { Document, Page, pdfjs } from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -17,7 +17,7 @@ function Resume() {
     <div className='Resume'>
       <div id='PDFdiv'>
         <div id='info-box' className='col-sm-12 mb-5 py-3'>
-          <h1>My Resume</h1>
+          <h1>My Résumé</h1>
           <hr />
         </div>{' '}
         <iframe src='./CerialeResume.pdf' title='title' id='resumePDF'></iframe>

@@ -11,15 +11,6 @@
 .Birds{
   /* position: sticky; */
 }
-#welcomeh4 {
-  padding-top: 150px;
-  text-align: center;
-  margin-bottom: -15%;
-  color: white;
-  font-family: "Luckiest Guy", cursive;
-  text-shadow: 1px 1px 2px black, 0 0 5px goldenrod, 0 0 5px gold, -1px 0 black,
-    0 1px black, 1px 0 black, 0 -1px black;
-}
 
 .birdroot {
   z-index: 1;

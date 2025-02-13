@@ -19,34 +19,36 @@ export default function About() {
                 /> */}
 
                 <p>
-                  Hello there! I am Seattle-based Full-stack developer with
-                  experience in the full range of applications from creating
-                  dynamic user interfaces to RESTful APIs. I am experienced in{' '}
+                  Hello there! I am a Seattle-based Full-stack Developer with
+                  expertise spanning the full development lifecycle, from
+                  building dynamic user interfaces to designing and integrating
+                  robust RESTful APIs. I specialize in{' '}
                   <b>
-                    JavaScript frameworks such as React, HTML/CSS, Node.js,
-                    SQL/NoSQL databases, and responsive design in an agile team
-                    environment
+                    JavaScript frameworks like React, Next.js, and Node.js, as
+                    well as SQL/NoSQL databases, responsive design, and
+                    cloud-based technologies such as Azure and AWS.
                   </b>
-                  . I excel with attention to detail, time management,
-                  written/verbal communication as well as problem solving. I am
-                  experienced at working successfully as an individual, team
-                  member, and leader.
+                  <br />
+                  <br />I have successfully led high-impact projects, including
+                  the development of innovative, real-time applications for
+                  multinational corporations and cloud migration initiatives
+                  that enhanced system reliability. My experience collaborating
+                  with cross-functional teams has resulted in delivering
+                  scalable, performant, and user-centric solutions within agile
+                  environments.
+                  <br />
+                  <br />I excel in attention to detail, time management,
+                  communication, and problem-solving, thriving as an individual
+                  contributor, a team member, and a leader. With a passion for
+                  bridging design and development, I consistently deliver
+                  seamless, accessible, and innovative digital experiences.
                 </p>
-
-                <p>
-                  {/* I have attached my resume at the top of this page, as well as
-                  my most recent projects, located in the Project Portfolio tab.
-                  Feel free to view these at your leisure, I hope you enjoy my
-                  work. Don't hesitate to reach out via my contacts if you have
-                  any questions. */}
-                </p>
-                <br />
               </div>
             </div>
-            <br />
+            {/*<br />
             <h1>Technical Skills</h1>
             <hr />
-            <div className='container skills-div'>
+             <div className='container skills-div'>
               {' '}
               <div className='item'></div>
               <img
@@ -110,12 +112,12 @@ export default function About() {
                   style={{ width: '100px', margin: '5px' }}
                 ></img>
               </div>
-            </div>
+            </div> 
 
             <br />
             <br />
             <hr />
-            <br />
+            <br />*/}
             <div className='row'>
               <div className='col-md-12'>
                 {' '}
@@ -123,14 +125,14 @@ export default function About() {
                   id='about-image'
                   src='./images/PoppyPicture.png'
                   className='responsive img-fluid thumbnail float-left'
-                  alt='Puppy Picture'
+                  alt='Puppy'
                   style={{ width: '66.6%' }}
                 />
                 <p>
                   A little bit more about me. I am an educated biologist who
                   played a crucial role in the rapid expansion of multiple craft
                   breweries. I am a husband, father, gardener and unprofessional
-                  chef. Shown above is my dog, Poppy, surprisingly not eating.
+                  chef. Shown here is my dog, Poppy, surprisingly not eating.
                   She enjoys seeing the sights and smelling the smells while
                   hiking the many trails the Pacific North West has to offer, as
                   well as getting compliments on her heterochromatic eyes.

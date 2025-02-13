@@ -1,7 +1,8 @@
 .flip-card {
   background-color: transparent;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;  
   perspective: 1000px;
 }
 
@@ -45,6 +46,7 @@ h6 {
 .text {
   background-color: white;
   width: 350px;
+  max-width: 100%;
   padding: 5px;
   margin: auto;
   /* margin-top: -8px; */
