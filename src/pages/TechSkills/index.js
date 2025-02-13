@@ -14,46 +14,46 @@ export default function TechSkills() {
                 id='skills-icon'
                 alt='html'
                 src='./images/logos/html5logo.png'
-              ></img>
+              />
               <img
                 id='skills-icon'
                 alt='javascript'
                 src='./images/logos/javascriptlogo.png'
-              ></img>
+              />
               <div className='item'>
                 <img
                   id='skills-icon'
                   alt='css'
                   src='./images/logos/css3logo.png'
-                ></img>
+                />
               </div>
               <div className='item'>
                 <img
                   id='skills-icon'
                   alt='react'
                   src='./images/logos/reactlogo.png'
-                ></img>
+                />
               </div>
               <div className='item'>
                 <img
                   id='skills-icon'
                   alt='node'
                   src='./images/logos/nodelogo.png'
-                ></img>
+                />
               </div>
               <div className='item'>
                 <img
                   id='skills-icon'
                   alt='mongodb'
                   src='./images/logos/mongodblogo.png'
-                ></img>
+                />
               </div>
               <div className='item'>
                 <img
                   id='skills-icon'
                   alt='github'
                   src='./images/logos/githublogo.png'
-                ></img>
+                />
               </div>
             </div>
           </div>

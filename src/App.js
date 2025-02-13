@@ -8,18 +8,29 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import './global.css';
 
 export default function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
-      <TechSkills />
-      <Portfolio />
-      <Contact />
-      <Resume />
+      <div className='' id='home'>
+        <Home />
+      </div>
+      <div className='' id='about'>
+        <About />
+      </div>
+      <div className='' id='techSkills'>
+        <TechSkills />
+      </div>
+      <div className='' id='portfolio'>
+        <Portfolio />
+      </div>
+      <div className='' id='contact'>
+        <Contact />
+      </div>
+      <div className='' id='resume'>
+        <Resume />
+      </div>{' '}
       {/* <Router>
         <Switch>
           <Route exact path='/'>

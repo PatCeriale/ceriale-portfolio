@@ -140,9 +140,9 @@ export default function About() {
                 <br />
               </div>
             </div>
-            <div className='row'>
+            {/* <div className='row'>
               <div className='col-md-12' id='resumeHome'></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
