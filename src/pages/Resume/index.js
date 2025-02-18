@@ -17,7 +17,7 @@ function Resume() {
             <br />
             <a href='/CerialeResume.pdf' download>
               <button className='resume-btn'>
-                Download PDF <i class='fa-solid fa-download'></i>
+                Download PDF <i className='fa-solid fa-download'></i>
               </button>
             </a>
           </div>

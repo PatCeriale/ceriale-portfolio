@@ -17,7 +17,7 @@ export default function Portfolio() {
             confidentiality, some projects I have worked on include:
             <br />
             <br />
-            <div class='job'>
+            <div className='job'>
               <span>
                 <b>Cloud Migration Lead – Multinational Tech Company</b>
               </span>
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 </li>
               </ul>
             </div>
-            <div class='job'>
+            <div className='job'>
               <span>
                 <b>
                   MVP Development & UX Collaboration – Multinational Tech
@@ -57,7 +57,7 @@ export default function Portfolio() {
                 </li>
               </ul>
             </div>
-            <div class='job'>
+            <div className='job'>
               <span>
                 <b>Government Intranet Modernization</b>
               </span>
@@ -72,7 +72,7 @@ export default function Portfolio() {
                 </li>
               </ul>
             </div>
-            <div class='job'>
+            <div className='job'>
               <span>
                 <b>Healthcare UX Optimization</b>
               </span>
@@ -102,8 +102,8 @@ export default function Portfolio() {
                 </div>
               ))}
             </div>
-            <i class='fa-brands fa-github'></i> The GitHub for this portfolio
-            can be found{' '}
+            <i className='fa-brands fa-github'></i> The GitHub for this
+            portfolio can be found{' '}
             <a
               href='https://github.com/PatCeriale/ceriale-portfolio'
               target='_blank'

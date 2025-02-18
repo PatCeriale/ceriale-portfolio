@@ -3,7 +3,7 @@ import './style.css';
 
 export default function ProjectCard(props) {
   const { name, image, description, github, preview } = props.project;
-  console.log(props);
+
   return (
     <div className='ProjectCard'>
       <div className='flip-card m-2'>
