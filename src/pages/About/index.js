@@ -32,10 +32,10 @@ export default function About() {
                   <br />I have successfully led high-impact projects, including
                   the development of innovative, real-time applications for
                   multinational corporations and cloud migration initiatives
-                  that enhanced system reliability. My experience collaborating
-                  with cross-functional teams has resulted in delivering
-                  scalable, performant, and user-centric solutions within agile
-                  environments.
+                  that enhanced system reliability and user accessibility. My
+                  experience collaborating with cross-functional teams has
+                  resulted in delivering scalable, performant, and user-centric
+                  solutions within agile environments.
                   <br />
                   <br />I excel in attention to detail, time management,
                   communication, and problem-solving, thriving as an individual
@@ -57,11 +57,12 @@ export default function About() {
                 <p>
                   A little bit more about me. I am an educated biologist who
                   played a crucial role in the rapid expansion of multiple craft
-                  breweries. I am a husband, father, gardener and unprofessional
-                  chef. Shown here is my dog, Poppy, surprisingly not eating.
-                  She enjoys seeing the sights and smelling the smells while
-                  hiking the many trails the Pacific North West has to offer, as
-                  well as getting compliments on her heterochromatic eyes.
+                  breweries. I am a husband, father of two, gardener,
+                  unprofessional chef and even more unprofessional musician.
+                  Shown here is my dog, Poppy, surprisingly not eating. She
+                  enjoys seeing the sights and smelling the smells while hiking
+                  the many trails the Pacific North West has to offer, as well
+                  as getting compliments on her heterochromatic eyes.
                 </p>
                 <br />
               </div>
