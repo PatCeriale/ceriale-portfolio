@@ -9,7 +9,33 @@ export default function TechSkills() {
           <div id='info-box' className='col-md-10 mb-5 py-5'>
             <h1>Technical Skills</h1>
             <hr />
+            <p>
+              <strong>Frontend: </strong>React.js, TypeScript, Angular, Next.js,
+              JavaScript, jQuery, HTML/CSS, SCSS
+            </p>
+            <p>
+              <strong>Backend: </strong>Node.js, Express.js, Rest APIs,
+              Databases; SQL/NoSQL
+            </p>
+            <p>
+              <strong>Tools: </strong>GitHub , Azure, Azure, AWS, Microsoft 365,
+              Figma
+            </p>
+            <p>
+              <strong>Additional: </strong>Agile Team Practices, Design & Build
+              Enablement, DevOps, Wireframe & Prototype Creation, Effective
+              Verbal and Written Communication Skills, Multidisciplinary Team
+              Experience
+            </p>
+            <br />
             <div className='container skills-div'>
+              <div className='item'>
+                <img
+                  id='skills-icon'
+                  alt='react'
+                  src='./images/logos/reactlogo.png'
+                />
+              </div>
               <img
                 id='skills-icon'
                 alt='html'
@@ -30,8 +56,8 @@ export default function TechSkills() {
               <div className='item'>
                 <img
                   id='skills-icon'
-                  alt='react'
-                  src='./images/logos/reactlogo.png'
+                  alt='mongodb'
+                  src='./images/logos/mongodblogo.png'
                 />
               </div>
               <div className='item'>
@@ -44,15 +70,18 @@ export default function TechSkills() {
               <div className='item'>
                 <img
                   id='skills-icon'
-                  alt='mongodb'
-                  src='./images/logos/mongodblogo.png'
+                  alt='github'
+                  src='./images/logos/githublogo.png'
                 />
+              </div>
+              <div className='item'>
+                <img id='skills-icon' alt='aws' src='./images/logos/aws.png' />
               </div>
               <div className='item'>
                 <img
                   id='skills-icon'
-                  alt='github'
-                  src='./images/logos/githublogo.png'
+                  alt='figma'
+                  src='./images/logos/figma.png'
                 />
               </div>
             </div>
