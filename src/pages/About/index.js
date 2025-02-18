@@ -45,82 +45,8 @@ export default function About() {
                 </p>
               </div>
             </div>
-            {/*<br />
-            <h1>Technical Skills</h1>
-            <hr />
-             <div className='container skills-div'>
-              {' '}
-              <div className='item'></div>
-              <img
-                id='skills-icon'
-                alt='html'
-                src='./images/logos/html5logo.png'
-                style={{ width: '100px', margin: '5px' }}
-              ></img>
-              <div className='item'></div>
-              <img
-                id='skills-icon'
-                alt='javascript'
-                src='./images/logos/javascriptlogo.png'
-                style={{ width: '100px', margin: '5px' }}
-              ></img>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='css'
-                  src='./images/logos/css3logo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='react'
-                  src='./images/logos/reactlogo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='node'
-                  src='./images/logos/nodelogo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='mongodb'
-                  src='./images/logos/mongodblogo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='github'
-                  src='./images/logos/githublogo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-              <div className='item'>
-                <img
-                  id='skills-icon'
-                  alt='photoshop'
-                  src='./images/logos/photoshoplogo.png'
-                  style={{ width: '100px', margin: '5px' }}
-                ></img>
-              </div>
-            </div> 
-
-            <br />
-            <br />
-            <hr />
-            <br />*/}
             <div className='row'>
               <div className='col-md-12'>
-                {' '}
                 <img
                   id='about-image'
                   src='./images/PoppyPicture.png'
@@ -140,9 +66,6 @@ export default function About() {
                 <br />
               </div>
             </div>
-            {/* <div className='row'>
-              <div className='col-md-12' id='resumeHome'></div>
-            </div> */}
           </div>
         </div>
       </div>

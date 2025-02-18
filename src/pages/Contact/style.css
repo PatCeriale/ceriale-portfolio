@@ -10,10 +10,8 @@
 #about-links {
   text-align: center;
 }
-.Contact #info-box {
-  margin: auto;
-  border-radius: 5px;
+
+.contactImage { 
+  height: 100px ;
+   width: 100px ;
 }
-/* .Contact{
-  margin: 0%;
-} */

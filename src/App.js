@@ -13,49 +13,24 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <div className='' id='home'>
+      <div className='routeDiv' id='home'>
         <Home />
       </div>
-      <div className='' id='about'>
+      <div className='routeDiv' id='about'>
         <About />
       </div>
-      <div className='' id='techSkills'>
+      <div className='routeDiv' id='techSkills'>
         <TechSkills />
       </div>
-      <div className='' id='portfolio'>
+      <div className='routeDiv' id='portfolio'>
         <Portfolio />
       </div>
-      <div className='' id='contact'>
+      <div className='routeDiv' id='contact'>
         <Contact />
       </div>
-      <div className='' id='resume'>
+      <div className='routeDiv' id='resume'>
         <Resume />
-      </div>{' '}
-      {/* <Router>
-        <Switch>
-          <Route exact path='/'>
-            <div className='hrefDiv' id='home'></div>
-            <div className='BirdDiv'></div>
-            <Home />
-            <About />
-            <TechSkills />
-            <Portfolio />
-            <Contact />
-            <Resume />
-          </Route>
-          <Route exact path='/about'>
-            <div className='hrefDiv' id='about'>
-              <About />
-            </div>
-          </Route>
-          <div className='hrefDiv' id='portfolio'></div>
-          <Portfolio />
-          <div className='hrefDiv' id='contact'></div>
-          <Contact />
-          <div className='hrefDiv' id='resume'></div>
-          <Resume />
-        </Switch>
-      </Router> */}
+      </div>
     </div>
   );
 }

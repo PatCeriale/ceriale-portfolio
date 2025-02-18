@@ -27,7 +27,7 @@ export default function ProjectCard(props) {
             <br />
             <h6>Description:</h6>
             <p>{description}</p>
-            <a href={github} target='_blank'>
+            <a href={github} target='_blank' rel='noreferrer'>
               GitHub
             </a>
           </div>

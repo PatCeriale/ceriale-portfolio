@@ -3,7 +3,7 @@ import './style.css';
 
 export default function NavBar() {
   const handleNavClick = (event, id) => {
-    event.preventDefault(); // Prevents default anchor behavior
+    event.preventDefault();
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });

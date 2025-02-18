@@ -6,22 +6,8 @@
 #about-image {
   margin: 10px;
 }
-.About #info-box {
-  margin: auto;
-  border-radius: 5px;
-  width: 90%;
-}
-/* #resumeBtn {
-  color: antiquewhite;
-  margin: 20px;
-  background-color: green;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  width: auto;
-} */
+
 .About .container {
-  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
