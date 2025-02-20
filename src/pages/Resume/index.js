@@ -39,9 +39,8 @@ export default function Resume() {
                 title='Resume PDF'
                 id='resumePDF'
                 width='100%'
-                // height='500px'
                 loading='lazy'
-              ></iframe>
+              />
             ) : (
               <p>Loading resume...</p>
             )}
