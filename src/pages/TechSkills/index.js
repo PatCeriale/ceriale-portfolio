@@ -81,7 +81,7 @@ export default function TechSkills() {
                 <img
                   id='skills-icon'
                   alt='figma'
-                  src='./images/logos/figma.png'
+                  src='./images/logos/Figma.png'
                 />
               </div>
             </div>

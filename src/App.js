@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import Birds from './components/Birds';
+// import Footer from './components/Footer';
 import About from './pages/About';
 import TechSkills from './pages/TechSkills';
 import Home from './pages/Home';
