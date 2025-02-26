@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import ThemePicker from './components/ThemePicker';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <NavBar />
       <div className='routeDiv' id='home'>
         <Home />
+        <ThemePicker />
       </div>
       <div className='routeDiv' id='about'>
         <About />
