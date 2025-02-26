@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
 
-.Home {
+/* .Home {
   min-height: 100vh;
-}
+} */
 *,
 *::before,
 *::after {
@@ -23,13 +23,13 @@
   background-position: center center;
   padding: 2rem;
 }
+
 .bird {
   background-image: url(../Birds/bird-cells-new.svg);
   background-size: auto 100%;
   width: 88px;
   height: 125px;
   will-change: background-position;
-
   animation-name: fly-cycle;
   animation-timing-function: steps(10);
   animation-iteration-count: infinite;
@@ -61,7 +61,6 @@
   left: -10%;
   transform: scale(0) translateX(-10vw);
   will-change: transform;
-
   animation-name: fly-right-one;
   animation-timing-function: linear;
   animation-iteration-count: infinite;

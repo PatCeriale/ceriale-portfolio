@@ -1,11 +1,15 @@
 import React from 'react';
 import './style.css';
+import Birds from '../../components/Themes/Birds';
+import CherryBlossoms from '../../components/Themes/CherryBlossoms';
 
 export default function Home() {
   return (
     <div className='Home'>
       <h1 id='welcomeText'>Welcome!</h1>
-      <div className='birdroot'>
+      <CherryBlossoms />
+      <Birds />
+      {/* <div className='birdroot'>
         <div className='bird-container bird-container--one'>
           <div className='bird bird--one'></div>
         </div>
@@ -21,7 +25,7 @@ export default function Home() {
         <div className='bird-container bird-container--four'>
           <div className='bird bird--four'></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
