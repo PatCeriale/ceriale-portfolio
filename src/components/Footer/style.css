@@ -4,14 +4,14 @@
   width: 100%;
   text-align: center;
   background-color: darkslategrey;
-  border-top-width: 5px;
-  border-color: green;
+  /* border-top-width: 5px;
+  border-color: green; */
 }
 .Footer .container {
   background-image: none;
   background-color: rgb(46, 68, 68);
   background-size: cover;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .Footer {

@@ -14,23 +14,23 @@ export default function Footer() {
             target='_blank'
             rel='noreferrer'
           >
-            LinkedIn |{' '}
+            LinkedIn <i class='fa-brands fa-linkedin'></i> |{' '}
           </a>
           <a
             href='https://github.com/PatCeriale'
             target='_blank'
             rel='noreferrer'
           >
-            GitHub |{' '}
+            GitHub <i class='fa-brands fa-square-github'></i> |{' '}
           </a>{' '}
           <a
             href='mailto: patceriale@gmail.com'
             target='_blank'
             rel='noreferrer'
           >
-            Email |
+            Email <i class='fa-solid fa-envelope'></i>
           </a>
-          <Link to='/resume'> Resume</Link>
+          {/* <Link to='/resume'> Resume</Link> */}
         </div>
       </footer>
     </div>
