@@ -1,4 +1,5 @@
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, { useState } from 'react';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './pages/About';
@@ -10,12 +11,19 @@ import Resume from './pages/Resume';
 import ThemePicker from './components/ThemePicker';
 
 export default function App() {
+  const [selectedTheme, setSelectedTheme] = useState(0);
+
+  const handleThemeSelect = (themeIndex) => {
+    setSelectedTheme(themeIndex);
+    console.log('Selected Theme:', selectedTheme);
+  };
+
   return (
     <div>
       <NavBar />
       <div className='routeDiv' id='home'>
-        <Home />
-        <ThemePicker />
+        <Home theme={selectedTheme} />
+        <ThemePicker onThemeSelect={handleThemeSelect} />
       </div>
       <div className='routeDiv' id='about'>
         <About />

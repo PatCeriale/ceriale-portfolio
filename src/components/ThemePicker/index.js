@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './style.css';
 
-export default function ThemePicker() {
+export default function ThemePicker({ onThemeSelect }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [currentTheme, setCurrentTheme] = useState(0);
 
   const options = [
     {
@@ -34,29 +33,26 @@ export default function ThemePicker() {
 
   const nextOption = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % options.length);
-    console.log(currentIndex);
   };
 
   const prevOption = () => {
     setCurrentIndex(
       (prevIndex) => (prevIndex - 1 + options.length) % options.length
     );
-    console.log(currentIndex);
   };
 
   const selectTheme = () => {
-    setCurrentTheme(currentIndex);
-    console.log(currentTheme);
+    onThemeSelect(currentIndex);
   };
 
   return (
-    <div className='container my-5 '>
-      <div className='row'>
-        <div id='info-box' className='col-md-10 mb-5 py-5 mx-auto '>
-          <h1>Themes</h1>
-          <hr />
-          <br />
-          <div className='themePicker'>
+    <div className='ThemePicker'>
+      <div className='container '>
+        <div className='row'>
+          <div id='themePicker-box' className='col-md-10  py-5  '>
+            <h1>Themes</h1>
+            <hr />
+            <br />
             <div className='themePicker-container'>
               <div className='themePicker-preview'>
                 <button className='themePicker-btn' onClick={prevOption}>
@@ -69,13 +65,14 @@ export default function ThemePicker() {
                   <i class='fa-solid fa-angle-right'></i>
                 </button>
               </div>
+              <p>
+                {options[currentIndex].label}:{' '}
+                {options[currentIndex].description}
+              </p>
+              <button className='themePicker-btn' onClick={selectTheme}>
+                Select
+              </button>
             </div>
-            <br />
-            <h2>{options[currentIndex].label}</h2>
-            <p>{options[currentIndex].description}</p>
-            <button className='themePicker-btn' onClick={selectTheme}>
-              Select
-            </button>
           </div>
         </div>
       </div>

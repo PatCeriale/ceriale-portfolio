@@ -1,4 +1,28 @@
-.themePicker {
+.ThemePicker {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
+  z-index: 1000; 
+  width: 80%; 
+  /* max-width: 600px;  */
+  overflow: hidden; 
+}
+.ThemePicker .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#themePicker-box{
+    border-radius: 5px;
+    width: 100%;
+    background-color: ivory;
+}
+
+.themePicker-container {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +41,8 @@
 .themePicker-preview {
     display: flex;
     flex-direction:row;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     gap: 20px;
   }
   
