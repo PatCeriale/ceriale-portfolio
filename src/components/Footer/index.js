@@ -12,30 +12,47 @@ export default function Footer({ onOpen }) {
   return (
     <div className='Footer'>
       <footer className='card-footer text-muted'>
-        <div className='container'>
-          <a
-            href='https://www.linkedin.com/in/patrick-ceriale-2537101b1/'
-            target='_blank'
-            rel='noreferrer'
+        <div className='footer-container'>
+          <div className='footer-icon'>
+            <button
+              className='footer-icon'
+              onClick={() =>
+                window.open(
+                  'https://www.linkedin.com/in/patrick-ceriale-2537101b1/',
+                  '_blank',
+                  'noopener,noreferrer'
+                )
+              }
+            >
+              <i className='fa-brands fa-linkedin'></i>
+            </button>
+            <button
+              className='footer-icon'
+              onClick={() =>
+                window.open(
+                  'https://github.com/PatCeriale',
+                  '_blank',
+                  'noopener,noreferrer'
+                )
+              }
+            >
+              <i className='fa-brands fa-square-github'></i>
+            </button>
+            <button
+              className='footer-icon'
+              onClick={() =>
+                (window.location.href = 'mailto:patceriale@gmail.com')
+              }
+            >
+              <i className='fa-solid fa-envelope'></i>
+            </button>
+          </div>
+          <button
+            className='footer-theme-btn'
+            onClick={() => handleThemeOpen()}
           >
-            LinkedIn <i class='fa-brands fa-linkedin'></i> |{' '}
-          </a>
-          <a
-            href='https://github.com/PatCeriale'
-            target='_blank'
-            rel='noreferrer'
-          >
-            GitHub <i class='fa-brands fa-square-github'></i> |{' '}
-          </a>{' '}
-          <a
-            href='mailto: patceriale@gmail.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Email <i class='fa-solid fa-envelope'></i>
-          </a>
-          {/* <Link to='/resume'> Resume</Link> */}
-          <button onClick={() => handleThemeOpen()}>Select Theme</button>
+            <i className='fa-solid fa-palette'></i> Select Theme
+          </button>
         </div>
       </footer>
     </div>
