@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-export default function ThemePicker({ onThemeSelect }) {
+export default function ThemePicker({ onThemeSelect, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const options = [
@@ -45,11 +45,23 @@ export default function ThemePicker({ onThemeSelect }) {
     onThemeSelect(currentIndex);
   };
 
+  const closePicker = () => {
+    onClose();
+  };
+
   return (
     <div className='ThemePicker'>
       <div className='container '>
         <div className='row'>
-          <div id='themePicker-box' className='col-md-10  py-5  '>
+          <div id='themePicker-box' className='col-md-10  pb-5  '>
+            <div className='themePicker-close'>
+              <button
+                className='themePicker-close-btn'
+                onClick={() => closePicker()}
+              >
+                <i class='fa-solid fa-xmark'></i>
+              </button>
+            </div>
             <h1>Themes</h1>
             <hr />
             <br />
@@ -69,9 +81,17 @@ export default function ThemePicker({ onThemeSelect }) {
                 {options[currentIndex].label}:{' '}
                 {options[currentIndex].description}
               </p>
-              <button className='themePicker-btn' onClick={selectTheme}>
-                Select
-              </button>
+              <div className='themePicker-preview'>
+                <button
+                  className='themePicker-btn themePicker-btn-cancel'
+                  onClick={onClose}
+                >
+                  Cancel
+                </button>
+                <button className='themePicker-btn' onClick={selectTheme}>
+                  Select
+                </button>
+              </div>
             </div>
           </div>
         </div>

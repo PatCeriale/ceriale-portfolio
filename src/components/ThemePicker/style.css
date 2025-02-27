@@ -16,6 +16,18 @@
   align-items: center;
   margin-bottom: 10px;
 }
+
+.themePicker-close{
+    text-align: right;
+    border: none;
+    padding-top: 5px;
+}
+
+.themePicker-close-btn{
+    border: none;
+    background-color: #ffffff;
+}
+
 #themePicker-box{
     border-radius: 5px;
     width: 100%;
@@ -57,8 +69,12 @@
     transition: background-color 0.3s;
   }
   
+  .themePicker-btn-cancel {
+    background-color: #d9180a;
+  }
+
   .themePicker-btn:hover {
-    background-color: #45a049;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
   }
   
   .themePicker-item {

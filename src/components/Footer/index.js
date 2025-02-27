@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import Resume from '../../pages/Resume';
 
-export default function Footer() {
+export default function Footer({ onOpen }) {
+  const handleThemeOpen = () => {
+    onOpen();
+  };
+
   return (
     <div className='Footer'>
       <footer className='card-footer text-muted'>
@@ -31,6 +35,7 @@ export default function Footer() {
             Email <i class='fa-solid fa-envelope'></i>
           </a>
           {/* <Link to='/resume'> Resume</Link> */}
+          <button onClick={() => handleThemeOpen()}>Select Theme</button>
         </div>
       </footer>
     </div>

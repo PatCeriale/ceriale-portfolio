@@ -12,18 +12,34 @@ import ThemePicker from './components/ThemePicker';
 
 export default function App() {
   const [selectedTheme, setSelectedTheme] = useState(0);
+  const [showThemePicker, setShowThemePicker] = useState(false);
 
   const handleThemeSelect = (themeIndex) => {
     setSelectedTheme(themeIndex);
     console.log('Selected Theme:', selectedTheme);
   };
 
+  const handleThemeOpen = () => {
+    setShowThemePicker(true);
+    console.log('Show theme modal:', showThemePicker);
+  };
+
+  const handleThemeClose = () => {
+    setShowThemePicker(false);
+    console.log('Show theme modal:', showThemePicker);
+  };
+
   return (
     <div>
       <NavBar />
+      {showThemePicker ? (
+        <ThemePicker
+          onThemeSelect={handleThemeSelect}
+          onClose={handleThemeClose}
+        />
+      ) : null}
       <div className='routeDiv' id='home'>
         <Home theme={selectedTheme} />
-        <ThemePicker onThemeSelect={handleThemeSelect} />
       </div>
       <div className='routeDiv' id='about'>
         <About />
@@ -40,7 +56,7 @@ export default function App() {
       <div className='routeDiv' id='resume'>
         <Resume />
       </div>
-      <Footer />
+      <Footer onOpen={handleThemeOpen} />
     </div>
   );
 }
