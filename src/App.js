@@ -16,6 +16,7 @@ export default function App() {
 
   const handleThemeSelect = (themeIndex) => {
     setSelectedTheme(themeIndex);
+    setShowThemePicker(false);
     console.log('Selected Theme:', selectedTheme);
   };
 

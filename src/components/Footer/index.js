@@ -51,7 +51,8 @@ export default function Footer({ onOpen }) {
             className='footer-theme-btn'
             onClick={() => handleThemeOpen()}
           >
-            <i className='fa-solid fa-palette'></i> Select Theme
+            <i className='fa-solid fa-palette'></i>
+            <span id='selectText'>Select Theme</span>
           </button>
         </div>
       </footer>
