@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './style.css';
+import SpringBackground from '../Themes/images/CherryBlossomOilPainting.png';
+import SummerBackground from '../Themes/images/CascadePassOilPainting.png';
+import FallBackground from '../Themes/images/SeattleFallRanier.png';
+import WinterBackground from '../Themes/images/LeavenworthWinter.png';
 
 export default function ThemePicker({ onThemeSelect, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,25 +13,25 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
       id: 0,
       label: 'Spring',
       description: 'This is the first option',
-      image: '#',
+      image: SpringBackground,
     },
     {
       id: 1,
       label: 'Summer',
       description: 'This is the second option',
-      image: '#',
+      image: SummerBackground,
     },
     {
       id: 2,
       label: 'Fall',
       description: 'This is the third option',
-      image: '#',
+      image: FallBackground,
     },
     {
       id: 3,
       label: 'Winter',
       description: 'This is the fourth option',
-      image: '#',
+      image: WinterBackground,
     },
   ];
 
@@ -43,6 +47,9 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
 
   const selectTheme = () => {
     onThemeSelect(currentIndex);
+    document.getElementById('home').scrollIntoView({
+      behavior: 'smooth',
+    });
   };
 
   const closePicker = () => {
@@ -59,7 +66,7 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
                 className='themePicker-close-btn'
                 onClick={() => closePicker()}
               >
-                <i class='fa-solid fa-xmark'></i>
+                <i className='fa-solid fa-xmark'></i>
               </button>
             </div>
             <h1>Themes</h1>
@@ -68,13 +75,17 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
             <div className='themePicker-container'>
               <div className='themePicker-preview'>
                 <button className='themePicker-btn' onClick={prevOption}>
-                  <i class='fa-solid fa-angle-left'></i>
+                  <i className='fa-solid fa-angle-left'></i>
                 </button>
                 <div className='themePicker-item'>
-                  <img src={options[currentIndex].image} alt='Theme preview' />
+                  <img
+                    className='themePicker-image'
+                    src={options[currentIndex].image}
+                    alt='Theme preview'
+                  />
                 </div>
                 <button className='themePicker-btn' onClick={nextOption}>
-                  <i class='fa-solid fa-angle-right'></i>
+                  <i className='fa-solid fa-angle-right'></i>
                 </button>
               </div>
               <p>

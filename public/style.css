@@ -1,5 +1,12 @@
-body {
-  background-image: url(https://64.media.tumblr.com/0e2a8ba291b133ced10be72b6e8d60a6/04309e525a883961-03/s1280x1920/f884ba4c85e7b8e794cc06a66a538de1506d0a93.png);
+/*body {
+   background-image: url(https://64.media.tumblr.com/0e2a8ba291b133ced10be72b6e8d60a6/04309e525a883961-03/s1280x1920/f884ba4c85e7b8e794cc06a66a538de1506d0a93.png); 
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}*/
+.bodyWrapper {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

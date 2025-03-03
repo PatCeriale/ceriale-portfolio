@@ -1,5 +1,4 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './pages/About';
@@ -9,9 +8,15 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import ThemePicker from './components/ThemePicker';
+import SpringBackground from './components/Themes/images/CherryBlossomOilPainting.png';
+import SummerBackground from './components/Themes/images/CascadePassOilPainting.png';
+import FallBackground from './components/Themes/images/SeattleFallRanier.png';
+import WinterBackground from './components/Themes/images/LeavenworthWinter.png';
 
 export default function App() {
   const [selectedTheme, setSelectedTheme] = useState(0);
+  const [selectedBackground, setSelectedBackground] =
+    useState(SpringBackground);
   const [showThemePicker, setShowThemePicker] = useState(false);
 
   const handleThemeSelect = (themeIndex) => {
@@ -19,6 +24,25 @@ export default function App() {
     setShowThemePicker(false);
     console.log('Selected Theme:', selectedTheme);
   };
+
+  useEffect(() => {
+    switch (selectedTheme) {
+      case 0:
+        setSelectedBackground(SpringBackground);
+        break;
+      case 1:
+        setSelectedBackground(SummerBackground);
+        break;
+      case 2:
+        setSelectedBackground(FallBackground);
+        break;
+      case 3:
+        setSelectedBackground(WinterBackground);
+        break;
+      default:
+        setSelectedBackground(SpringBackground);
+    }
+  }, [selectedTheme]);
 
   const handleThemeOpen = () => {
     setShowThemePicker(true);
@@ -31,7 +55,13 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div
+      className='bodyWrapper'
+      style={{
+        backgroundImage: `url(${selectedBackground})`,
+      }}
+    >
+      {' '}
       <NavBar />
       {showThemePicker ? (
         <ThemePicker

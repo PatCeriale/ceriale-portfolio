@@ -20,6 +20,13 @@ export default function Birds() {
         <i></i>
         <i></i>
         <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
       </div>
     </div>
   );
