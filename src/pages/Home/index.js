@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import Birds from '../../components/Themes/Birds';
 import CherryBlossoms from '../../components/Themes/CherryBlossoms';
+import Snowflakes from '../../components/Themes/Snowflakes';
 
 export default function Home(props) {
   const renderTheme = () => {
@@ -12,8 +13,8 @@ export default function Home(props) {
         return <Birds />;
       // case 2:
       //   return <Autumn />;
-      // case 3:
-      //   return <Winter />;
+      case 3:
+        return <Snowflakes />;
       default:
         return <Birds />;
     }
