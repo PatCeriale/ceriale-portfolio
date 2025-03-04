@@ -59,7 +59,7 @@ export default function Portfolio() {
             </div>
             <div className='job'>
               <span>
-                <b>Government Intranet Modernization</b>
+                <b>Intranet Modernization – Government Organization</b>
               </span>
               <ul>
                 <li>
@@ -74,7 +74,7 @@ export default function Portfolio() {
             </div>
             <div className='job'>
               <span>
-                <b>Healthcare UX Optimization</b>
+                <b>Healthcare UX Optimization – Medical Organization</b>
               </span>
               <ul>
                 <li>

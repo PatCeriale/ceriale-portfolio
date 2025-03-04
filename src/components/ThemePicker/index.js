@@ -12,25 +12,25 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
     {
       id: 0,
       label: 'Spring',
-      description: 'This is the first option',
+      description: 'Relax and enjoy the cherry blossoms',
       image: SpringBackground,
     },
     {
       id: 1,
       label: 'Summer',
-      description: 'This is the second option',
+      description: 'Cascade Pass in summer time. Watch out for birds!',
       image: SummerBackground,
     },
     {
       id: 2,
-      label: 'Fall',
-      description: 'This is the third option',
+      label: 'Autumn',
+      description: 'Seattle in the fall. Enjoy the colors!',
       image: FallBackground,
     },
     {
       id: 3,
       label: 'Winter',
-      description: 'This is the fourth option',
+      description: 'Winter in the Bavarian inspired town of Leavenworth',
       image: WinterBackground,
     },
   ];
