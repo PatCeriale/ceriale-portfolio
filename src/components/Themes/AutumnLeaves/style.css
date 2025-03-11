@@ -11,19 +11,22 @@
     height: 100%;
     pointer-events: none;
   }
-  
-  #leaves i {
+  .test-leaf{
+        background-image:url(./leaf1.png);
+      }
+      #leaves i {
+    background-size: cover;
     position: absolute;
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: linear-gradient(to bottom right, #8B0000, #FF4500, #FFA500, #FFD700);
+    /* background: linear-gradient(to bottom right, #8B0000, #FF4500, #FFA500, #FFD700);
     clip-path: polygon(
         50% -140%, 60% 15%, 75% 10%, 65% 30%, 90% 40%, 70% 50%,
         85% 70%, 60% 65%, 50% 90%, 40% 65%, 15% 70%, 30% 50%,
         10% 40%, 35% 30%, 25% 10%, 40% 15%
-    );
-    opacity: 0.9;
+    );*/
+    opacity: 0.9; 
     transform-origin: center;
     animation: fall linear infinite;
 }
