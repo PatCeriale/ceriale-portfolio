@@ -1,8 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import './style.css';
-import Resume from '../../pages/Resume';
 
 export default function Footer({ onOpen }) {
   const handleThemeOpen = () => {

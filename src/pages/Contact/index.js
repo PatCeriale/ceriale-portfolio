@@ -14,6 +14,7 @@ export default function Contact() {
                 <a
                   href='https://www.linkedin.com/in/patrick-ceriale-2537101b1/'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <img
                     src='./images/linkedinlogo.png'
@@ -27,7 +28,11 @@ export default function Contact() {
             </div>
             <div className='col-sm'>
               <p>
-                <a href='https://github.com/PatCeriale' target='_blank'>
+                <a
+                  href='https://github.com/PatCeriale'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <img
                     src='./images/githublogoonly.png'
                     className='contactImage'
@@ -40,7 +45,11 @@ export default function Contact() {
             </div>
             <div className='col-sm'>
               <p>
-                <a href='mailto: patceriale@gmail.com' target='_blank'>
+                <a
+                  href='mailto: patceriale@gmail.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <img
                     src='./images/gmailicon.png'
                     className='contactImage'
