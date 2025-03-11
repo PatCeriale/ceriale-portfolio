@@ -31,43 +31,7 @@
   background-color: transparent;
 }
 
-/* .footer-themebtn{
-  background-color: transparent;
-  border: none;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-} */
-
-/* .footer-theme-btn {
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  background-color: transparent;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px; 
-}
-
-.footer-theme-btn:hover {
-  background: linear-gradient(135deg, #45a049, #2e7d32);
-  transform: translateY(-2px);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-} 
-
-.footer-theme-btn:active {
-  transform: translateY(1px);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
-}
-*/
 .footer-theme-btn {
-  /* font-size: 16px;*/
   font-weight:lighter; 
   cursor: pointer;
   background: transparent; 

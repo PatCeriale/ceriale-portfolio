@@ -22,7 +22,6 @@ export default function App() {
   const handleThemeSelect = (themeIndex) => {
     setSelectedTheme(themeIndex);
     setShowThemePicker(false);
-    console.log('Selected Theme:', selectedTheme);
   };
 
   useEffect(() => {
@@ -46,12 +45,10 @@ export default function App() {
 
   const handleThemeOpen = () => {
     setShowThemePicker(true);
-    console.log('Show theme modal:', showThemePicker);
   };
 
   const handleThemeClose = () => {
     setShowThemePicker(false);
-    console.log('Show theme modal:', showThemePicker);
   };
 
   return (
