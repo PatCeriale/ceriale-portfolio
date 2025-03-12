@@ -1,34 +1,16 @@
 .bodyWrapper {
-  /* background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* max-height: 100svh; */
 }
-/* TODO: fix this for mobile 
-
-*/
-@media (max-width: 1024px) { 
-  .bodyWrapper {
-    background-size: contain; 
-    background-position: top center; 
-  }
-}
-/* @media (max-width: 768px) {  */
   .backgroundImage {
     position:fixed;
-    /* top: 0;
-    left: 0; */
     width: 100vw;
     height: 100vh; 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
   }
-/* } */
 
 h1 {
   text-align: center;

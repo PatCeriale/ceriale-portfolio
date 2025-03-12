@@ -8,26 +8,17 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import ThemePicker from './components/ThemePicker';
-// import SpringBackground from './components/Themes/images/CherryBlossomOilPainting.png';
-// import SummerBackground from './components/Themes/images/CascadePassOilPainting.png';
-// import FallBackground from './components/Themes/images/SeattleFallRanier.png';
-// import WinterBackground from './components/Themes/images/LeavenworthWinter.png';
+
+const images = [
+  '/images/themeBackgrounds/CherryBlossomOilPainting.png',
+  'images/themeBackgrounds/CascadePassOilPainting.png',
+  'images/themeBackgrounds/SeattleFallRanier.png',
+  'images/themeBackgrounds/LeavenworthWinter.png',
+];
 
 export default function App() {
-  const images = [
-    '/images/themeBackgrounds/CherryBlossomOilPainting.png',
-    'images/themeBackgrounds/CascadePassOilPainting.png',
-    'images/themeBackgrounds/SeattleFallRanier.png',
-    'images/themeBackgrounds/LeavenworthWinter.png',
-    // require('./components/Themes/images/CherryBlossomOilPainting.png'),
-    // require('./components/Themes/images/CascadePassOilPainting.png'),
-    // require('./components/Themes/images/SeattleFallRanier.png'),
-    // require('./components/Themes/images/LeavenworthWinter.png'),
-  ];
-
   const [selectedTheme, setSelectedTheme] = useState(0);
   const [selectedBackground, setSelectedBackground] = useState(images[0]);
-  // const [selectedBackground, setSelectedBackground] =   useState(SpringBackground);
   const [showThemePicker, setShowThemePicker] = useState(false);
 
   const handleThemeSelect = (themeIndex) => {
@@ -51,20 +42,6 @@ export default function App() {
         break;
       default:
         setSelectedBackground(images[0]);
-      // case 0:
-      //   setSelectedBackground(SpringBackground);
-      //   break;
-      // case 1:
-      //   setSelectedBackground(SummerBackground);
-      //   break;
-      // case 2:
-      //   setSelectedBackground(FallBackground);
-      //   break;
-      // case 3:
-      //   setSelectedBackground(WinterBackground);
-      //   break;
-      // default:
-      //   setSelectedBackground(SpringBackground);
     }
   }, [selectedTheme]);
 
@@ -77,12 +54,7 @@ export default function App() {
   };
 
   return (
-    <div
-      className='bodyWrapper'
-      // style={{
-      //   backgroundImage: `url(${selectedBackground})`,
-      // }}
-    >
+    <div className='bodyWrapper'>
       <div
         className='backgroundImage'
         style={{
