@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import './style.css';
-import SpringBackground from '../Themes/images/CherryBlossomOilPainting.png';
-import SummerBackground from '../Themes/images/CascadePassOilPainting.png';
-import FallBackground from '../Themes/images/SeattleFallRanier.png';
-import WinterBackground from '../Themes/images/LeavenworthWinter.png';
+
+const images = [
+  '/images/themeBackgrounds/CherryBlossomOilPainting.png',
+  '/images/themeBackgrounds/CascadePassOilPainting.png',
+  '/images/themeBackgrounds/SeattleFallRanier.png',
+  '/images/themeBackgrounds/LeavenworthWinter.png',
+];
 
 export default function ThemePicker({ onThemeSelect, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,25 +16,25 @@ export default function ThemePicker({ onThemeSelect, onClose }) {
       id: 0,
       label: 'Spring',
       description: 'Relax and enjoy the cherry blossoms',
-      image: SpringBackground,
+      image: images[0],
     },
     {
       id: 1,
       label: 'Summer',
       description: 'Cascade Pass in summer time. Watch out for birds!',
-      image: SummerBackground,
+      image: images[1],
     },
     {
       id: 2,
       label: 'Autumn',
       description: 'Seattle in the fall. Enjoy the colors!',
-      image: FallBackground,
+      image: images[2],
     },
     {
       id: 3,
       label: 'Winter',
       description: 'Winter in the Bavarian inspired town of Leavenworth',
-      image: WinterBackground,
+      image: images[3],
     },
   ];
 
