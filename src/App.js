@@ -8,15 +8,26 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import ThemePicker from './components/ThemePicker';
-import SpringBackground from './components/Themes/images/CherryBlossomOilPainting.png';
-import SummerBackground from './components/Themes/images/CascadePassOilPainting.png';
-import FallBackground from './components/Themes/images/SeattleFallRanier.png';
-import WinterBackground from './components/Themes/images/LeavenworthWinter.png';
+// import SpringBackground from './components/Themes/images/CherryBlossomOilPainting.png';
+// import SummerBackground from './components/Themes/images/CascadePassOilPainting.png';
+// import FallBackground from './components/Themes/images/SeattleFallRanier.png';
+// import WinterBackground from './components/Themes/images/LeavenworthWinter.png';
 
 export default function App() {
+  const images = [
+    '/images/themeBackgrounds/CherryBlossomOilPainting.png',
+    'images/themeBackgrounds/CascadePassOilPainting.png',
+    'images/themeBackgrounds/SeattleFallRanier.png',
+    'images/themeBackgrounds/LeavenworthWinter.png',
+    // require('./components/Themes/images/CherryBlossomOilPainting.png'),
+    // require('./components/Themes/images/CascadePassOilPainting.png'),
+    // require('./components/Themes/images/SeattleFallRanier.png'),
+    // require('./components/Themes/images/LeavenworthWinter.png'),
+  ];
+
   const [selectedTheme, setSelectedTheme] = useState(0);
-  const [selectedBackground, setSelectedBackground] =
-    useState(SpringBackground);
+  const [selectedBackground, setSelectedBackground] = useState(images[0]);
+  // const [selectedBackground, setSelectedBackground] =   useState(SpringBackground);
   const [showThemePicker, setShowThemePicker] = useState(false);
 
   const handleThemeSelect = (themeIndex) => {
@@ -27,19 +38,33 @@ export default function App() {
   useEffect(() => {
     switch (selectedTheme) {
       case 0:
-        setSelectedBackground(SpringBackground);
+        setSelectedBackground(images[0]);
         break;
       case 1:
-        setSelectedBackground(SummerBackground);
+        setSelectedBackground(images[1]);
         break;
       case 2:
-        setSelectedBackground(FallBackground);
+        setSelectedBackground(images[2]);
         break;
       case 3:
-        setSelectedBackground(WinterBackground);
+        setSelectedBackground(images[3]);
         break;
       default:
-        setSelectedBackground(SpringBackground);
+        setSelectedBackground(images[0]);
+      // case 0:
+      //   setSelectedBackground(SpringBackground);
+      //   break;
+      // case 1:
+      //   setSelectedBackground(SummerBackground);
+      //   break;
+      // case 2:
+      //   setSelectedBackground(FallBackground);
+      //   break;
+      // case 3:
+      //   setSelectedBackground(WinterBackground);
+      //   break;
+      // default:
+      //   setSelectedBackground(SpringBackground);
     }
   }, [selectedTheme]);
 
@@ -54,11 +79,16 @@ export default function App() {
   return (
     <div
       className='bodyWrapper'
-      style={{
-        backgroundImage: `url(${selectedBackground})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${selectedBackground})`,
+      // }}
     >
-      {' '}
+      <div
+        className='backgroundImage'
+        style={{
+          backgroundImage: `url(${selectedBackground})`,
+        }}
+      ></div>
       <NavBar />
       {showThemePicker ? (
         <ThemePicker
