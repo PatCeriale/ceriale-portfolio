@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './style.css';
 
 const images = [
-  '/images/themeBackgrounds/CherryBlossomOilPainting.png',
-  '/images/themeBackgrounds/CascadePassOilPainting.png',
-  '/images/themeBackgrounds/SeattleFallRanier.png',
-  '/images/themeBackgrounds/LeavenworthWinter.png',
+  '/images/themeBackgrounds/CherryBlossomOilPainting.jpg',
+  '/images/themeBackgrounds/CascadePassOilPainting.jpg',
+  '/images/themeBackgrounds/SeattleFallRanier.jpg',
+  '/images/themeBackgrounds/LeavenworthWinter.jpg',
 ];
 
 export default function ThemePicker({ onThemeSelect, onClose }) {
